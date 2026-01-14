@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Set port and verify_token
 const port = process.env.PORT || 3000;
-const verifyToken = 123456;
+const verifyToken = "hola123";
 const whatsappToken = process.env.WHATSAPP_TOKEN;
 const phoneId = process.env.PHONE_ID;
 
